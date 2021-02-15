@@ -36,12 +36,12 @@ app.get('/', function (req, res) {
     var url = req.query.url;
     options.url = defaultUrl;
     if (url != undefined && url != null) {
-        console.log("User Input Url :: " + url);
+        console.log("User input url :: " + url);
         options.url = url.toString();
     }
     request_1.default(options, function (error, response, body) {
         if (body == undefined) {
-            res.send(" Invalid url of Csv");
+            res.send(" Invalid url of csv");
         }
         else {
             var csvArray = body.split("\n");
