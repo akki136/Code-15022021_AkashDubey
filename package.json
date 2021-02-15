@@ -1,0 +1,25 @@
+{
+  "name": "csvreader",
+  "version": "0.0.1",
+  "description": "this is assignment for vamstar interview",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "csv"
+  ],
+  "author": "Akash Dubey",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "@types/request": "^2.48.5",
+  "express": "^4.16.4",
+    "request": "^2.88.2"
+  }
+}
